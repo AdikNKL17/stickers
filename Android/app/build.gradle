@@ -7,7 +7,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.samplestickerapp"
+        applicationId "com.adik.samplestickerapp"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
@@ -109,4 +109,5 @@ dependencies {
     implementation 'com.facebook.fresco:webpsupport:1.13.0'
     implementation 'com.facebook.fresco:animated-webp:1.13.0'
     implementation 'com.facebook.fresco:animated-base:1.13.0'
+    implementation 'com.google.android.gms:play-services-ads:18.1.0'
 }
